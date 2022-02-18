@@ -98,8 +98,8 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Ayurveda</h2>
-              <p>Individual. Comprehensive. Holistic. Authentic Ayurvedic treatments in the East of Sri Lanka.</p>
+              <h2 class="ftco-heading-2"><?php content("footer-h1");?></h2>
+              <p><?php content("footer-h1-msg");?></p>
               <ul class="ftco-footer-social list-unstyled mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -109,38 +109,35 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
+              <h2 class="ftco-heading-2"><?php content("footer-h2");?></h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Blog</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg1");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg2");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg3");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg4");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg5");?></a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
              <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Services</h2>
+              <h2 class="ftco-heading-2"><?php content("footer-h3");?></h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Ayurveda </a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Ayurveda Health Centre</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Accomodation</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Impressions</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg1");?> </a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg2");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg3");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg4");?></a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2"><?php content("footer-h4");?></h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Ayurveda Centre Nilaveli
-					Robert- Thevarajah  MDTM
-					11. Mile Post, Nilaveli
-					Trincomalee (Sri Lanka)</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+94 26 205 0060</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text">info@ayurveda-nilaveli-resort.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text"><?php content("footer-h4-msg1");?></span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text"><?php content("footer-h4-msg2");?></span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text"><?php content("footer-h4-msg3");?></span></a></li>
 	              </ul>
 	            </div>
             </div>

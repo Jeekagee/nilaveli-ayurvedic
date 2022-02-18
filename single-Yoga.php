@@ -80,17 +80,17 @@
         <div class="row">
           <div class="col-lg-12 ftco-animate">
             <h2 class="mb-3"></h2>
-            <p>Practicing yoga regularly has a very soothing effect on body and mind. Properly practiced, yoga supports the general health and the cleansing of the body, stimulates the metabolism, releases blockages and complements an Ayurvedic treatment. Whether you already practice yoga or not you will enjoy this path to greater physical and mental balance.</p>
+            <p><?php content("yoga-content-msg1");?></p>
             <p>
               <img src="images/img_19.jpg" alt="" class="img-fluid">
             </p>
-            <p>Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!</p>
+            <p><?php content("yoga-content-msg2");?></p>
             
-            <p>Yoga takes place in English three times a week in the morning and is aimed at beginners and advanced students.</p>
+            <p><?php content("yoga-content-msg3");?></p>
             <p>
               <img src="images/img_27.jpg" alt="" class="img-fluid">
             </p>
-            <p>The Nilaveli Ayurveda Resort also serves as an oasis of peace and perfection for deep meditation. And the Yoga Shala at the lagoon is open to you for individual yoga practice and meditation. Yoga mats are available.</p>
+            <p><?php content("yoga-content-msg3");?></p>
             
           </div> <!-- .col-md-8 -->
         </div>
@@ -104,8 +104,8 @@
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Ayurveda</h2>
-              <p>Individual. Comprehensive. Holistic. Authentic Ayurvedic treatments in the East of Sri Lanka.</p>
+              <h2 class="ftco-heading-2"><?php content("footer-h1");?></h2>
+              <p><?php content("footer-h1-msg");?></p>
               <ul class="ftco-footer-social list-unstyled mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -115,38 +115,35 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
+              <h2 class="ftco-heading-2"><?php content("footer-h2");?></h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Blog</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg1");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg2");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg3");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg4");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg5");?></a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
              <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Services</h2>
+              <h2 class="ftco-heading-2"><?php content("footer-h3");?></h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Ayurveda </a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Ayurveda Health Centre</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Accomodation</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Impressions</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg1");?> </a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg2");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg3");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg4");?></a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2"><?php content("footer-h4");?></h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">Ayurveda Centre Nilaveli
-					Robert- Thevarajah  MDTM
-					11. Mile Post, Nilaveli
-					Trincomalee (Sri Lanka)</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+94 26 205 0060</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text">info@ayurveda-nilaveli-resort.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text"><?php content("footer-h4-msg1");?></span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text"><?php content("footer-h4-msg2");?></span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text"><?php content("footer-h4-msg3");?></span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -160,6 +157,32 @@
         </div>
       </div>
     </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
     
   
 

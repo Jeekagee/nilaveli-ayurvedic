@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ayurveda </title>
+    <title>Nilaveli Ayurveda Resort</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -96,11 +96,15 @@
 
           <!--Footer-->
           <div class="col text-center" style="padding: 1rem;">
-            <a href="language.php?language=dut" class="btn btn-danger">Deutsch
-              
-              <i class="far fa-gem ml-1 white-text"></i>
-            </a>
-            <a href="language.php?language=eng" class="btn btn-outline-danger waves-effect" >English</a>
+	  		<div class="row">
+				  <div class="col-md-6">
+            		<a href="language.php?language=dut" style="width:100%" class="btn btn-danger">Deutsch</a>
+				  </div>
+            		
+				   <div class="col-md-6">
+            		<a href="language.php?language=eng" style="width:100%" class="btn btn-outline-danger waves-effect" >English</a>
+				</div>
+			</div>
           </div>
         </div>
         <!--/.Content-->
@@ -128,7 +132,7 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">Nilaveli Ayurvedic Resort</a>
+	      <a class="navbar-brand" href="index.php"><?php content("home-head"); ?></a>
 			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="oi oi-menu"></span> Menu
 			</button>
@@ -138,8 +142,8 @@
 					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
 					<li class="nav-item"><a href="#department-section" class="nav-link"><span>Services</span></a></li>
-					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li>
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>More</span></a></li>
 					<li class="nav-item cta mr-md-2">
 						<button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#myModal">Select Language</button>
 					</li>

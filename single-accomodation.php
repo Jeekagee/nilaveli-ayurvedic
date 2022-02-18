@@ -78,11 +78,11 @@
         <div class="row">
           <div class="col-lg-12 ftco-animate">
             <h2 class="mb-3"></h2>
-            <p>Vastu, the Indian architectural education for health, harmony and success was the basis for planning, design and equipment of the complex with ten bungalows, as to create an optimal balance between the indoor and outdoor climate. Because environment, as well as the architecture affect people. Therefore, the five elements of Ayurveda are taken into consideration here as well: earth, water, fire, air, ether (space).</p>
+            <p><?php content("accomodation-content-msg1");?></p>
             <p>
               <img src="images/img_12.jpg" alt="" class="img-fluid">
             </p>
-            <p>The ten spacious bungalows have furnished terraces and offer a lot of privacy. During their equipment TV and WiFi was deliberately omitted. The windows can be opened and left open day and night; this creates a well-adapted and pleasant ventilation. All bungalows are equipped with fans and mosquito nets. The bathrooms have European standard and a private outdoor shower area. Local materials, combined with solid craftsmanship, create natural atmospheres. Furniture, doors and windows were made by local carpenters in traditional ways.</p>
+            <p><?php content("accomodation-content-msg2");?></p>
             
             
           </div> <!-- .col-md-8 -->

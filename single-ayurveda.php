@@ -71,7 +71,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Ayurveda</h1>
+            <h1 class="mb-3 bread"><?php content("ayurveda-main-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Ayurveda <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -82,22 +82,18 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-            <h2 class="mb-3">The secret of a healthy life</h2>
-            <p>Literally translated, Ayurveda means wisdom or life science. The term comes from Sanskrit and is composed of the words Ayus (life) and Veda (knowledge). Ayurveda is a traditional holistic healing art, which has been passed over the millennia from generation to generation and is considered to be the oldest existing health care system. In Sri Lanka, the knowledge has been continuously maintained and taught. Besides India, it is the only country that officially recognizes and offers Ayurveda as a full health care system by the state.</p>
+            <h2 class="mb-3"><?php content("ayurveda-content-head");?></h2>
+            <p><?php content("ayurveda-content-msg1");?></p>
             
               <img src="images/img_21.jpg" alt="" class="img-fluid">
             </p>
-            <p>Ayurveda is a combination of experiential knowledge and philosophy that focuses on the important physical, mental, emotional and spiritual aspects of human health and disease. Thus, Ayurveda is a holistic approach. Central elements of Ayurveda are:</p>
+            <p><?php content("ayurveda-content-msg2");?></p>
 
-			      <p>Ayurvedic massage and cleansing techniques</p>
-            <p>Well-founded Ayurvedic dietetics</p>
-            <p>Spiritual yoga practice</p>
-            <p>Knowledgeable herbal Medicine</p>
-            <p>Panchakarma (excretory cures)</p>
-            <p>Despite the influence of western medicine, Ayurveda has proven great importance to this day and has spread throughout the world. But a distinction has to be made between traditional and western understanding of Ayurveda: In the traditional sense - and as we teach Ayurveda to our guests in Nilaveli - Ayurveda is a healing art and a natural medicine; while in the western world rather the aspect of feeling comfortable through rest and relaxation are paramount.</p>
+			<p><?php content("ayurveda-content-msg3");?></p>
+            <p><?php content("ayurveda-content-msg4");?></p>
 			<img src="images/img_8.jpg" alt="" class="img-fluid">
-            <p>One of the most effective methods for physical and mental cleansing and for regaining a dynamic balance between the three Doshas, is the Panchakarma cure. The ancient writings of Ayurveda recommend that the cure be carried out twice a year. It is used for the prevention of diseases, as well as for the healing or alleviation, especially of chronic diseases. Our offers are aimed particularly at guests who wish to get involved in such a cure.</p>
-            <p>Ideally, a stay lasts three to four weeks. The cleaning methods are used to remove toxic substances and metabolic waste products from the body. The intensive cleansing and deep touch of body and mind during an Ayurvedic treatment can give insights that make once whole life appear in a new light.</p>
+            <p><?php content("ayurveda-content-msg5");?></p>
+            <p><?php content("ayurveda-content-msg6");?></p>
 
           </div> <!-- .col-md-8 -->
       </div>

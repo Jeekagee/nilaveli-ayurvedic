@@ -73,7 +73,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Ayuveda Health Centre</h1>
+            <h1 class="mb-3 bread"><?php content("health-main-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Ayurveda Health Centre<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -84,12 +84,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-            <h2 class="mb-3">In Ayurveda, a life with the rhythm of nature and in connection with nature is sought: life therefore takes place outside or in non-air-conditioned Rooms.</h2>
-            <p>The whispering of the wind, birdsong, chirping crickets and sometimes the calls of the peacock accompany you throughout the day. Swing your eyes up to the rolling palm trees, linger by the lagoon, smell fragrant flowers or stroll through the garden and stop by the various signposted Ayurvedic medicinal plants.</p>
+            <h2 class="mb-3"><?php content("ayurvedahealth-content-head");?></h2>
+            <p><?php content("ayurvedahealth-content-msg1");?></p>
             <p>
               <img src="images/img_25.jpg" alt="" class="img-fluid">
             </p>
-            <p>Sun loungers and hammocks in the garden and next to the lagoon invite you to relax after the treatments. The facility provides enough space for retreat to devote oneself to the processes triggered by the treatments. In the freshwater swimming pool, during a walk at the unique sandy beach of Nilaveli or a bath in the Indian Ocean, you can satisfy your desire to move. The complex is well protected against the outside, so you can enjoy undisturbed rest hours.</p>
+            <p><?php content("ayurvedahealth-content-msg2");?></p>
             
               <img src="images/img_9.jpg" alt="" class="img-fluid">
             </p>
