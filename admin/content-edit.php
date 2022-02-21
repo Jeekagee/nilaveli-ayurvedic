@@ -2,6 +2,10 @@
 include('main/header.php');
 include('main/navbar.php');
 include('database/mydbCon.php');
+
+// if (!isset($_SESSION["id"])) {
+//     header("Location: login.php");
+//   }
 ?>
 
 <div class="container-fluid">

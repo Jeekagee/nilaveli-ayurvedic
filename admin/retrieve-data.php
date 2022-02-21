@@ -1,9 +1,12 @@
 <?php
 include('database/mydbCon.php');
 include('main/header.php');
-$query="select * from content limit 150"; // Fetch all the data from the table customers
+$query="select * from content limit 250"; // Fetch all the data from the table customers
 $result=mysqli_query($dbCon,$query);
 
+// if (!isset($_SESSION["id"])) {
+//     header("Location: login.php");
+//   }
 
 if(isset($_POST['edit_btn']))
     {

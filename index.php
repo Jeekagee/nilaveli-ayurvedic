@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Nilaveli Ayurveda Resort</title>
+    <title>Nilaveli Ayurveda Health Center</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -145,7 +145,7 @@
 					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 					<li class="nav-item"><a href="#blog-section" class="nav-link"><span>More</span></a></li>
 					<li class="nav-item cta mr-md-2">
-						<button type="button" class="btn btn-primary btn-flat" data-toggle="modal" data-target="#myModal">Select Language</button>
+						<button type="button" class="btn btn-default btn-sm" style="padding-top: 0.8rem" data-toggle="modal" data-target="#myModal">Select Language</button>
 					</li>
 					
 					                     

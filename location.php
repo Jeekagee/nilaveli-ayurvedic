@@ -77,9 +77,10 @@
           <div class="col-lg-12 ftco-animate">
             <h2 class="mb-3">Location</h2>
 			<h4 class="mb-3 mt-5">Nilaveli </h4>
-            <p>  
-				<img src="images/img_32.jpg" alt="" class="img-fluid">
-            </p>
+      <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=nilaveli%20ayurveda%20health%20center&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+         </div>
+      </div>
 			<p>Nilaveli is located about 17 km north of Trincomalee and invites you to rest at the most beautiful beach sections of Sri Lanka.</p>
 			<h4 class="mb-3 mt-5">Trincomalee </h4>
             <p>Trincomalee is the capital of the eastern province and is located in the northeast of Sri Lanka, about 260 km away from Colombo and 180 km northeast of the city of Kandy. Trinco (as it is commonly called) invites with beautiful natural beaches, diving and hiking possibilities, as well as an interesting cultural diversity.</p>
