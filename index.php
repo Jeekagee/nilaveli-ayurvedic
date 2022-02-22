@@ -1,5 +1,5 @@
 <?php include 'connection.php';
-//hi
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

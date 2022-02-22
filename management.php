@@ -1,3 +1,7 @@
+<?php include 'connection.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -61,7 +65,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Management</h1>
+            <h1 class="mb-3 bread"><?php content("health-management-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Management<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -72,34 +76,33 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-            <h2 class="mb-3">Management</h2>
-			<h4 class="mb-3 mt-5"> Robert Thevarajah</h4>
+			<h4 class="mb-3 mt-5"> <?php content("health-management-head1");?></h4>
             <p>  
 				<img src="images/img_32.jpg" alt="" class="img-fluid">
             </p>
-			<p>I, Robert Thevarajah, grew up in Sri Lanka in an Ayurveda family. Ayurvedic practice and theory have shaped me since I was a child and so I developed the desire to pass on this philosophy. I studied traditional Ayurvedic medicine in Colombo and graduated from the Ayurveda Institute in Sri Lanka with a diploma (MDTM). I have been living and working in Switzerland with my own Ayurveda Health Center for over 25 years.</p>
-            <p>After almost 30 years of war and the tsunami on the north-east coast of Sri Lanka, I built the first authentic Ayurveda center in the region. For our guests from Europe, we have designed the price policy for an Ayurveda cure so that Ayurveda is accessible to everyone. It is particularly important to me to create jobs for people from the surrounding area and thereby strengthen this region. Our employees live near the center and we enable them to generate an income with which they can provide their families. Our team looks forward to accompanying you on your way to more wellbeing.</p>
-            <p>The main contact person for all physical and mental-spiritual concerns is the doctor. All our doctors went through academic studies of about 5½ years and graduated with the Bachelor of Ayurvedic Medicine B.A.M.S. Ayurvedic doctors, known as Vaidyas, enjoy a high reputation in Sri Lankan society. Our doctors know the needs and expectations of guests from Europe and speak English. We recommend that you follow their instructions, even if they do not always seem comprehensible to you. Feel free to ask questions, they are answered with pleasure.</p>
-			<h4 class="mb-3 mt-5">Prasanga Karunarathna</h4>
+			      <p><?php content("health-management-msg1");?></p>
+            <p><?php content("health-management-msg2");?></p>
+            <p><?php content("health-management-msg3");?></p>
+			<h4 class="mb-3 mt-5"><?php content("health-management-head2");?></h4>
 			<p>  
 				<img src="images/img_2.jpg" alt="" class="img-fluid">
             </p>
-			<p>Prasanga Karunarathna (Bachelor of Ayurvedic Medicine B.A.M.S.) uses his well-founded knowledge gained as a doctor during several years of study. He knows the Needs of the guests from Europe and cares for our guests with a lot of empathy during the whole stay.</p>
-			<p>Our therapists live with their families near the Ayurveda Health Center. Besides their mother tongue Tamil, they speak a little bit of English and know how to interact with European guests. They are well educated about the Ayurvedic tradition and practice and carry out the treatments prescribed by the doctors. Continuous training promotes quality and personal development.</p>
+            <p><?php content("health-management-msg4");?></p>
+            <p><?php content("health-management-msg5");?></p>
 		</div> <!-- .col-md-8 -->
 		</div>
       </div>
     </section> <!-- .section -->
 		
 
-    <footer class="ftco-footer ftco-section img" style="background-image: url(images/footer-bg.jpg);">
+    <footer class="ftco-footer ftco-section img img" style="background-image: url(images/img_13.jpg);">
     	<div class="overlay"></div>
       <div class="container-fluid px-md-5">
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Mediplus</h2>
-              <p>Far far away, behind the word mountains, far from the countries.</p>
+              <h2 class="ftco-heading-2"><?php content("footer-h1");?></h2>
+              <p><?php content("footer-h1-msg");?></p>
               <ul class="ftco-footer-social list-unstyled mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -109,50 +112,35 @@
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Departments</h2>
+              <h2 class="ftco-heading-2"><?php content("footer-h2");?></h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Neurology</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Opthalmology</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Nuclear Magnetic</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Surgical</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Cardiology</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Dental</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Departments</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Doctors</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Blog</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Pricing</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg1");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg2");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg3");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg4");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h2-msg5");?></a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
              <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Services</h2>
+              <h2 class="ftco-heading-2"><?php content("footer-h3");?></h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Emergency Services</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Qualified Doctors</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Outdoors Checkup</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>24 Hours Services</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg1");?> </a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg2");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg3");?></a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span><?php content("footer-h3-msg4");?></a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<h2 class="ftco-heading-2"><?php content("footer-h4");?></h2>
             	<div class="block-23 mb-3">
 	              <ul>
-	                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text">info@yourdomain.com</span></a></li>
+	                <li><span class="icon icon-map-marker"></span><span class="text"><?php content("footer-h4-msg1");?></span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text"><?php content("footer-h4-msg2");?></span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope pr-4"></span><span class="text"><?php content("footer-h4-msg3");?></span></a></li>
 	              </ul>
 	            </div>
             </div>
@@ -161,9 +149,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
 	
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <p>© Ayurveda-Zentrum Nilaveli 2020</p>
           </div>
         </div>
       </div>

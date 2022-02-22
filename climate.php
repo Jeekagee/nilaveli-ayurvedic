@@ -65,7 +65,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Climate</h1>
+            <h1 class="mb-3 bread"><?php content("health-climate-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Climate<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -76,9 +76,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-            <h2 class="mb-3">Monsoons, temperatures, climate - and your skin</h2>
+            <h2 class="mb-3"><?php content("health-climate-head1");?></h2>
             </p>
-			      <p><?php content("health-climate-content"); ?></p>
+			      <p><?php content("health-climate-msg1"); ?></p>
+            <p><?php content("health-climate-msg2"); ?></p>
+            <p><?php content("health-climate-msg3"); ?></p>
+            <p><?php content("health-climate-msg4"); ?></p>
 		</div> <!-- .col-md-8 -->
 		</div>
       </div>

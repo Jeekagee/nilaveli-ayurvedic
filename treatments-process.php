@@ -1,3 +1,7 @@
+<?php include 'connection.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -61,7 +65,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Treatments Process</h1>
+            <h1 class="mb-3 bread"><?php content("ayurveda-trt-process-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Treatments Process<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -75,9 +79,9 @@
             <h2 class="mb-3"></h2>
               <img src="images/img_32.jpg" alt="" class="img-fluid">
             </p>
-			<p><?php content("ayurveda-trt-process-content");?></p>
-            <p><?php content("ayurveda-trt-process-content1");?></p>
-            <p><?php content("ayurveda-trt-process-content2");?></p>
+			      <p><?php content("ayurveda-trt-process-msg1");?></p>
+            <p><?php content("ayurveda-trt-process-msg2");?></p>
+            <p><?php content("ayurveda-trt-process-msg3");?></p>
             <p>
               <img src="images/img_18.jpg" alt="" class="img-fluid">
             </p>

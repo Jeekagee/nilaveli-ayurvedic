@@ -65,7 +65,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Herbal Medicine</h1>
+            <h1 class="mb-3 bread"><?php content("ayurveda-herbal-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Herbal Medicine<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -76,10 +76,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-            <h2 class="mb-3"><?php content("ayurveda-herbal-head");?></h2>
+            <h2 class="mb-3"><?php content("ayurveda-herbal-head1");?></h2>
               <img src="images/img_25.jpg" alt="" class="img-fluid">
             </p>
-			<p><?php content("ayurveda-herbal-content");?></p>
+			      <p><?php content("ayurveda-herbal-msg1");?></p>
+            <p><?php content("ayurveda-herbal-msg2");?></p>
             <p>
               <img src="images/img_33.jpg" alt="" class="img-fluid">
             </p>

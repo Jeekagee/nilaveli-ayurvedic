@@ -1,3 +1,7 @@
+<?php include 'connection.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -61,7 +65,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Arrival/Departure</h1>
+            <h1 class="mb-3 bread"><?php content("health-arival-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Arrival/Departure<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -72,19 +76,18 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-            <h2 class="mb-3">Arrival/Departure</h2>
-			<p>In the future, travel in relation to Corona should be as safe as possible for both tourists and the local population in Sri Lanka. Sri Lanka has received the "Safe Travels Stamp" from the World Travel and Tourism Council (WTTC). This award rewards countries for complying with the WTTC's strict global hygiene protocols. The Safe Travels Stamp is intended to provide travelers from around the world with the assurance that the facility in question is complying with global hygiene and sanitation standards. </p>
-			<h4 class="mb-3 mt-5">Visa application</h4>
-            <p>The visa for Sri Lanka can be applied for on the website of the Sri Lankan Immigration Service. The application form has not yet been reactivated, i.e. at present no visa for Sri Lanka can be applied for. The visa fees will be 35 USD per person again in the future.</p>
-			<h4 class="mb-3 mt-5">Transfer from the airport to Nilaveli</h4>
-            <p>Upon your wish we gladly organize your transfer to Nilaveli with a driver who picks you up at Colombo airport and drives you directly to the Ayurveda centre in an air-conditioned vehicle. The travel time is four to five hours depending on the time of day and traffic.</p>
-			<p>If you would like to divide the long journey into two phases as to acclimatise before driving to Nilaveli, we recommend staying overnight in Negombo near the airport. We are happy to help you with arranging an accommodation.</p>
-			<h4 class="mb-3 mt-5">Transfer from Nilaveli to the airport</h4>
-			<p>For your return journey, we can arrange a transfer to Colombo Airport. If you wish to spend another night in the bustling capital of Sri Lanka, the driver will take you to an accommodation in Colombo.</p>
-			<h4 class="mb-3 mt-5">Transfer prices (per way)</h4>
-			<p>120 CHF / for 1 person</p>
-			<p>60 CHF per person with transfer for 2 persons</p>
-			<p>30 CHF per Person with transfer for 4 persons</p>
+            <p><?php content("health-arival-msg1");?> </p>
+        <h4 class="mb-3 mt-5"><?php content("health-arival-head1");?></h4>
+            <p><?php content("health-arival-msg2");?></p>
+			  <h4 class="mb-3 mt-5"><?php content("health-arival-head2");?></h4>
+            <p><?php content("health-arival-msg3");?></p>
+			      <p><?php content("health-arival-msg4");?></p>
+			  <h4 class="mb-3 mt-5"><?php content("health-arival-head3");?></h4>
+			      <p><?php content("health-arival-msg5");?></p>
+			  <h4 class="mb-3 mt-5"><?php content("health-arival-head4");?></h4>
+            <p><?php content("health-arival-msg6");?></p>
+            <p><?php content("health-arival-msg7");?></p>
+            <p><?php content("health-arival-msg8");?></p>
 		</div> <!-- .col-md-8 -->
 		</div>
       </div>

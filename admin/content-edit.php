@@ -26,9 +26,9 @@ include('database/mydbCon.php');
                 foreach($result as $row)
                 {
                     ?>
+                    <!-- <a href="retrieve-data.php?id='$id'"></a> -->
                 <form action="retrieve-data.php" method="POST">
-
-                <input type="hidden" name="edit_id" value="<?php echo $row['id'] ?>">
+                     <input type="hidden" name="edit_id" value="<?php echo $row['id'] ?>">
  
                 <div class="form-group">
                     <label>Content English</label>
