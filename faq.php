@@ -40,9 +40,6 @@
 					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
 						    <span class="text">info@ayurveda-nilaveli-resort.com</span>
 					    </div>
-					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
-						    <p class="mb-0 register-link"><a href="#" class="mr-3">Sign Up</a><a href="#">Sign In</a></p>
-					    </div>
 				    </div>
 			    </div>
 		    </div>
@@ -60,66 +57,66 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-            <h2 class="mb-3">FAQ Frequently Asked Questions</h2>
-			      <h4 class="mb-3">Helpful information about your stay at the Ayurveda Centre Nilaveli</h4>
-            <p>What is the ideal duration of an Ayurvedic cure?</p>
-            <p>We recommend a stay of at least 14 days. Shorter stays are rather suitable for relaxation and well-being. For deeper health benefits a stay of three to four weeks is ideal. This cure form is less compressed and enables a deep cleansing. For guests with health problems we recommend a stay of at least four weeks. Improvements in well-being are not always experienced in its full extent at the end of the Ayurvedic cure, but often during the weeks following three to four weeks.</p>
-			      <p>For which complaints is an Ayurveda cure recommended?</p>
-            <p>Generally, for all chronic physical and mental illnesses, exhaustion and for the general prevention of illnesses. As each cure is individually planned and coordinated, specific health disorders can be addressed in an appropriate manner.</p>
+            <h2 class="mb-3"><?php content("faq-content-head1");?></h2>
+			      <h4 class="mb-3"><?php content("faq-content-head2");?></h4>
+            <p><?php content("faq-content-msg1");?></p>
+            <p><?php content("faq-content-msg2");?></p>
+			      <p><?php content("faq-content-msg3");?></p>
+            <p><?php content("faq-content-msg4");?></p>
 
-            <p>What quality can I expect in the Ayurveda Centre Nilaveli?</p>
-            <p>We attach particular importance to the individual coordination of the Ayurvedic treatments with each individual guest. They correspond to a high quality standard and are labour-intensive. For certain treatments, two therapists are used at the same time. All treatments are carried out under medical supervision. A medical on-call service is constantly guaranteed; also at night, on public holidays and on weekends. Our oils are of a high quality and the majority of the herbal oils are produced with great care according to traditional Ayurvedic recipes. The drugs are obtained from a state-certified company in Sri Lanka.</p>
+            <p><?php content("faq-content-msg5");?></p>
+            <p><?php content("faq-content-msg6");?></p>
             
-            <p>How many treatments do I have during my course?</p>
-            <p>The daily treatments last between two and three hours and are spread over the morning and afternoon. The selection and frequency of treatments are determined individually by the doctors and can change continuously over the course of the cure.</p>
+            <p><?php content("faq-content-msg7");?></p>
+            <p><?php content("faq-content-msg8");?></p>
             
-                  <p>how is the diet</p>
-            <p>The diet for all spa guests is vegetarian, varied and light. We offer a tasty, Ayurvedic full board made from fresh local ingredients. You will receive three meals a day and hot water in between and Ayurvedic teas. Food allergies are taken into account.</p>
+                  <p><?php content("faq-content-msg9");?></p>
+            <p><?php content("faq-content-msg10");?></p>
             
-            <p>What can you do at home to prepare for the cure?</p>
-            <p>It is beneficial to eat only light, vegetarian food and avoid cheese and eggs four to five days before starting. Drink about 2 liters of herbal tea (ginger tea) or warm boiled water for about 10 minutes every day. If you don't live too far away, we recommend a consultation at our practice in Bern (Switzerland).</p>
+            <p><?php content("faq-content-msg11");?></p>
+            <p><?php content("faq-content-msg12");?></p>
             
-            <p>What clothes should I bring for my treatment?</p>
-            <p>Light, easily washable summer clothing made from natural fibers (cotton, linen) is ideal. Due to the various oil applications, stains may appear on light-colored clothing (laundry service possible). We recommend that you bring along additional old bathing suits/underpants for oil applications and a headscarf to protect against wind and sun during head treatments (Shirodara).</p>
+            <p><?php content("faq-content-msg13");?></p>
+            <p><?php content("faq-content-msg14");?></p>
 			
-			<p>What clothing is appropriate during and after the treatments?</p>
-			<p>You will receive a personal bathrobe, which you can wear for the treatments.</p>
+            <p><?php content("faq-content-msg15");?></p>
+            <p><?php content("faq-content-msg16");?></p>
+            
+            <p><?php content("faq-content-msg17");?></p>
+            <p><?php content("faq-content-msg18");?></p>
+            
+            <p><?php content("faq-content-msg19");?></p>
+            <p><?php content("faq-content-msg20");?></p>
+            <h4 class="mb-3 mt-5"><?php content("faq-content-head3");?></h4>
+            <p><?php content("faq-content-msg21");?></p>
+            <p><?php content("faq-content-msg22");?></p>
+            
+            <p><?php content("faq-content-msg23");?></p>
+            <p><?php content("faq-content-msg24");?></p>
+            
+            <p><?php content("faq-content-msg25");?></p>
+            <p><?php content("faq-content-msg26");?></p>
+            
+            <p><?php content("faq-content-msg27");?></p>
+            <p><?php content("faq-content-msg28");?></p>
 			
-			<p>Does my Swiss health insurance pay for the Ayurveda cure?</p>
-			<p>Medical services in Sri Lanka are not covered by Swiss health insurance. Ayurvedic therapies in Switzerland can be billed to EMR/ASCA-registered therapists via supplementary insurance.</p>
-			
-			<p>What language is spoken at Nilaveli Ayurveda Center?</p>
-			<p>Our therapists are local and speak Tamil and a few words of English. Our doctors speak English.</p>
-			<h4 class="mb-3 mt-5">Accomodation</h4>
-			<p>Are there air conditioned bungalows?</p>
-			<p>No. Basically, the body is repeatedly treated with heat during an Ayurveda cure, namely by massaging with warm oil, sweating and hot food and drinks. The purifying and detoxifying effect of these measures would be prevented by staying in cold rooms, which is why the installation of air conditioning units was deliberately avoided in the Ayurveda center Nilaveli.</p>
-			
-			<p>How are the bungalows equipped?</p>
-			<p>The ten spacious bungalows have their own terrace and a large private outdoor shower area and offer a lot of privacy. When furnishing the rooms, TV and air conditioning were deliberately omitted. All bungalows are equipped with fans, mosquito nets and a safe.</p>
-			
-			<p>How far is it to Nilaveli beach?</p>
-			<p>About fifteen minutes on foot or five minutes by bike from the Ayurveda center is one of the most beautiful beaches in Sri Lanka. The 4 km long, wide and gently sloping sandy beach "Nilaveli Beach".</p>
-			
-			<p>Is there a library</p>
-			<p>A few books are available to guests. We encourage you to bring your favorite reading from home with you.</p>
-			
-			<p>Does the Nilaveli Ayurveda Center have an internet connection?</p>
-			<p>Free WiFi is available to guests at the reception and in the dining area.</p>
-			<h4 class="mb-3 mt-5">Travel trips</h4>
-			<p>How is the climate in Sri Lanka?</p>
-			<p>Sri Lanka is a year-round destination with a tropical monsoon climate. Temperatures in Sri Lanka are high and vary little throughout the year. The highest temperatures occur on the east coast from March to June. The warm, humid climate is particularly suitable for an Ayurveda cure. The pores of the skin can open optimally, which means that the Ayurvedic herbal oils penetrate particularly well and deeply and the cleaning effect is deepened. The temperature difference to Europe is smaller in summer, so the body can adapt more easily.</p>
-			
-			<p>Do I need a visa?</p>
-			<p>Citizens of Switzerland, Austria and Germany need a passport valid for at least 6 months and a visa to enter Sri Lanka.</p>
-			
-			<p>How do I get from the airport to the Ayurveda center?</p>
-			<p>On request, we are happy to organize private transfers to the Ayurveda center. A driver will personally pick you up at Colombo airport and drive you directly to the Ayurveda center in an air-conditioned vehicle. The journey time is between four and five hours, depending on the time of day and traffic volume.</p>
-			
-			<p>Where can I change money? How can I pay?</p>
-			<p>Swiss francs, euros or US dollars can be exchanged at the airport or in exchange offices and banks in Trincomalee (approx. 30 minutes drive). You will find an ATM for withdrawing cash in Trincomalee. Euro checks are not accepted in Sri Lanka. Credit cards are accepted in the Ayurveda center.</p>
-			
-			<p>Should I get vaccinated before my trip?</p>
-			<p>Your tepee and polio vaccines should still be effective. No further vaccinations are necessary. Vaccinations against diphtheria, measles (or immunity after illness), hepatitis A are recommended for all travelers. for Risk groups also receive vaccinations against hepatitis B and typhoid. If you are unsure, please consult a tropical doctor before departure.</p>
+            <p><?php content("faq-content-msg29");?></p>
+            <p><?php content("faq-content-msg30");?></p>
+            <h4 class="mb-3 mt-5"><?php content("faq-content-head4");?></h4>
+            <p><?php content("faq-content-msg31");?></p>
+            <p><?php content("faq-content-msg32");?></p>
+            
+            <p><?php content("faq-content-msg33");?></p>
+            <p><?php content("faq-content-msg34");?></p>
+            
+            <p><?php content("faq-content-msg35");?></p>
+            <p><?php content("faq-content-msg36");?></p>
+            
+            <p><?php content("faq-content-msg37");?></p>
+            <p><?php content("faq-content-msg38");?></p>
+            
+            <p><?php content("faq-content-msg39");?></p>
+            <p><?php content("faq-content-msg40");?></p>
 			
           </div> <!-- .col-md-8 -->
           

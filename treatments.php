@@ -36,9 +36,6 @@
 					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
 						    <span class="text">info@ayurveda-nilaveli-resort.com</span>
 					    </div>
-					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
-						    <p class="mb-0 register-link"><a href="#" class="mr-3">Sign Up</a><a href="#">Sign In</a></p>
-					    </div>
 				    </div>
 			    </div>
 		    </div>
@@ -64,7 +61,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Treatments</h1>
+            <h1 class="mb-3 bread"><?php content("ayurveda-treatment-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Treatments<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -78,9 +75,9 @@
             <h2 class="mb-3"></h2>
               <img src="images/img_22.jpg" alt="" class="img-fluid">
             </p>
-			<p>Selection and frequency of treatments are determined by the doctors. They work out the individual treatment plan, which will be adapted to your needs during the course of the treatment. You will be advised about what time, which treatments are provided for you.</p>
-            <p>Please note that the treatments, the daily routine and the composition of the meals may differ greatly from those of your companion or other guests. Enjoy a personalized cure program.</p>
-            <p>For your daily treatments, you betake yourself into the loving hands of well-trained therapists. They perform the treatments with warm oils, specially indicated for you. These range from partial or full-body oil massages to inhalations, herbal baths and the famous Shirodhara (forehead oil casting), the supreme discipline in Ayurveda. Note: Women are treated by female therapists and men by male therapists.</p>
+			      <p><?php content("ayurveda-treatment-msg1");?></p>
+            <p><?php content("ayurveda-treatment-msg2");?></p>
+            <p><?php content("ayurveda-treatment-msg3");?></p>
 		</div> <!-- .col-md-8 -->
 		</div>
       </div>

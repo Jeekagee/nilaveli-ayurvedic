@@ -123,7 +123,7 @@
 					    <div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span>
 							</div>
-						    <span class="text">info@ayurveda-nilaveli-resort.com</span>
+							<a href="mailto:info@ayurveda-nilaveli-resort.com"><span class="text">info@ayurveda-nilaveli-resort.com</span>
 					    </div>
 				    </div>
 			    </div>
@@ -201,7 +201,7 @@
 						<div class="row justify-content-center pb-5">
 						  <div class="col-md-12 heading-section ftco-animate">
 							<h2 class="mb-4"><?php content("services-h1");?></h2>
-							<h4 class-"mb-4"><?php content("services-msg1");?></h2>
+							<h4 class-"mb-4"><?php content("services-msg1");?></h4>
 						  </div>
 						</div>
 						<div class="row">
@@ -336,42 +336,42 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-md-5 heading-section heading-section-white">
-					<span class="subheading"><?php content("services-msg6");?></span>
-					<h2 class="mb-4"><?php content("services-msg7");?></h2>
+					<!-- <span class="subheading"><?php content("services-msg6");?></span>
+					<h2 class="mb-4"><?php content("services-msg7");?></h2> -->
 					<p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Make an appointment</a></p>
 				</div>
 				<div class="col-md-7">
 					<div class="row pt-4">
-						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+						<div class="">
 							<div class="block-18">
-								<div class="text">
+								<!-- <div class="text">
 									<strong class="number" data-number="30">0</strong>
 									<span>Years of Experienced</span>
-								</div>
+								</div> -->
 							</div>
 						</div>
-						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+						<div class="">
 							<div class="block-18">
-								<div class="text">
+								<!-- <div class="text">
 									<strong class="number" data-number="4500">0</strong>
 									<span>Happy Patients</span>
-								</div>
+								</div> -->
 							</div>
 						</div>
-						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+						<div class="">
 							<div class="block-18">
-								<div class="text">
+								<!-- <div class="text">
 									<strong class="number" data-number="84">0</strong>
 									<span>Number of Doctors</span>
-								</div>
+								</div> -->
 							</div>
 						</div>
-						<div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+						<div class="">
 							<div class="block-18">
-								<div class="text">
+								<!-- <div class="text">
 									<strong class="number" data-number="300">0</strong>
 									<span>Number of Staffs</span>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
