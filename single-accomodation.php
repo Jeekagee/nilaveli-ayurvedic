@@ -47,15 +47,15 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Accomodation</a>
+	      <a class="navbar-brand" href="index.php">Accomodation</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="index.html#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="lagoon-beach.html" class="nav-link"><span>Lagoon and Beach</span></a></li>
+	          <li class="nav-item"><a href="index.php#home-section" class="nav-link"><span>Home</span></a></li>
+	          <li class="nav-item"><a href="lagoon-beach.php" class="nav-link"><span>Lagoon and Beach</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -66,8 +66,8 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Accomodation</h1>
-             <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Accomodation<i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-3 bread"><?php content("accomodation-head");?></h1>
+             <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Accomodation<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>

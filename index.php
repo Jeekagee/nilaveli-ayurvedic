@@ -552,43 +552,31 @@
     <section class="ftco-section testimony-section img" style="background-image: url(images/bg_3.jpg);">
     	<div class="overlay"></div>
       <div class="container">
-        <div class="row justify-content-center pb-3">
+        <div class="row justify-content-center">
           <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
           	<span class="subheading"><?php content("read-testimonials");?></span>
-            <h2 class="mb-4"><?php content("read-testimonials-h1");?></h2>
+            <h2 class=""><?php content("read-testimonials-h1");?></h2>
           </div>
         </div>
         <div class="row ftco-animate justify-content-center">
           <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img" style="background-image: url(images/img_37.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
+            <!-- <div class="carousel-testimony owl-carousel ftco-owl"> -->
+              <!-- <div class="item">
+                <div class="testimony-wrap text-center"> -->
+				<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+					<div class="elfsight-app-66d9bfd8-a3db-4fc1-a19c-c87aefd7c413"></div>
+                  <!-- <div class="user-img" style="background-image: url(images/img_37.jpg)"> -->
+                    <!-- <span class="quote d-flex align-items-center justify-content-center">
                       <i class="icon-quote-left"></i>
                     </span>
-                  </div>
-                  <div class="text px-4">
+                  </div> -->
+                  <!-- <div class="text px-4">
                     <p class="mb-4"></p>
                     <span class="position"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="testimony-wrap text-center py-4 pb-5">
-                  <div class="user-img" style="background-image: url(images/img_37.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text px-4">
-                    <p class="mb-4"></p>
-                    <p class="name"></p>
-                    <span class="position"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="item">
+                  </div> -->
+                <!-- </div>
+              </div> -->
+              <!-- <div class="item">
                 <div class="testimony-wrap text-center py-4 pb-5">
                   <div class="user-img" style="background-image: url(images/img_37.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
@@ -601,8 +589,8 @@
                     <span class="position"></span>
                   </div>
                 </div>
-              </div>
-              <div class="item">
+              </div> -->
+              <!-- <div class="item">
                 <div class="testimony-wrap text-center py-4 pb-5">
                   <div class="user-img" style="background-image: url(images/img_37.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
@@ -615,8 +603,8 @@
                     <span class="position"></span>
                   </div>
                 </div>
-              </div>
-              <div class="item">
+              </div> -->
+              <!-- <div class="item">
                 <div class="testimony-wrap text-center py-4 pb-5">
                   <div class="user-img" style="background-image: url(images/img_37.jpg)">
                     <span class="quote d-flex align-items-center justify-content-center">
@@ -629,8 +617,22 @@
                     <span class="position"></span>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div> -->
+              <!-- <div class="item">
+                <div class="testimony-wrap text-center py-4 pb-5">
+                  <div class="user-img" style="background-image: url(images/img_37.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text px-4">
+                    <p class="mb-4"></p>
+                    <p class="name"></p>
+                    <span class="position"></span>
+                  </div>
+                </div>
+              </div> -->
+            <!-- </div> -->
           </div>
         </div>
       </div>

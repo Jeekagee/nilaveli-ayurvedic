@@ -26,17 +26,17 @@ if(isset($_POST['edit_btn']))
     $query = "UPDATE content SET content_eng='$content_eng', content_dut='$content_dut' WHERE id='$id' ";
     $result=mysqli_query($dbCon,$query);
 
-    if($result)
+    if($result==true)
     {
         $_SESSION['status'] = "Your Data is Updated";
         $_SESSION['status_code'] = "success";
-        header('content.php'); 
+        header('Location: content.php'); 
     }
     else
     {
         $_SESSION['status'] = "Your Data is NOT Updated";
         $_SESSION['status_code'] = "error";
-        header('content.php'); 
+        header('Location: content.php');  
     }
 }
 

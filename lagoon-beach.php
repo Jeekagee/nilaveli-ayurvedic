@@ -65,7 +65,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Lagoon And Beach</h1>
+            <h1 class="mb-3 bread"><?php content("accomodation-lagoon-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Lagoon And Beach<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -76,11 +76,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-            <h2 class="mb-3">Lagoon and Beach</h2>
             <p>
               <img src="images/4.jpg" alt="" class="img-fluid">
             </p>
-			      <p><?php content("accomodation-lagoon-content"); ?></p>
+			      <p><?php content("accomodation-lagoon-msg1");?></p>
 		</div> <!-- .col-md-8 -->
 		</div>
       </div>

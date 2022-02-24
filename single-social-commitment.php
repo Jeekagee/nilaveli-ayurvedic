@@ -65,7 +65,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Social Commitment</h1>
+            <h1 class="mb-3 bread"><?php content("social-commit-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Social Commitment<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -76,8 +76,8 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-            <h2 class="mb-3"></h2>
-            <p><?php content("social-commit-content"); ?></p>
+            <h2 class="mb-3"><?php content("social-commit-head1");?></h2>
+            <p><?php content("social-commit-msg1");?></p>
 			<p>
               <img src="images/img_22.jpg" alt="" class="img-fluid">
             </p>

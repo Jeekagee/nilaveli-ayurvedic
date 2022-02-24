@@ -16,9 +16,9 @@ include('database/mydbCon.php');
         <div class="card-body">
         <?php
 
-            if(isset($_POST['edit_btn']))
+            if(isset($_GET['edit_id']))
             {
-                $id = $_POST['edit_id'];
+                $id = $_GET['edit_id'];
                 
                 $query = "SELECT * FROM content WHERE id='$id' ";
                 $result=mysqli_query($dbCon,$query);
@@ -31,14 +31,14 @@ include('database/mydbCon.php');
                      <input type="hidden" name="edit_id" value="<?php echo $row['id'] ?>">
  
                 <div class="form-group">
-                    <label>Content English</label>
-                    <input type="text" name="content_eng" value="<?php echo $row['content_eng'] ?>"
-                        class="form-control" placeholder="Enter Content">
+                    <label >Content English</label>
+                    <textarea  class="form-control" name="content_eng" rows="6" cols="50"><?php echo $row['content_eng'] ?>
+                    </textarea>
                 </div>
                 <div class="form-group">
                     <label>Content Deutsch</label>
-                    <input type="text" name="content_dut" value="<?php echo $row['content_dut'] ?>"
-                        class="form-control" placeholder="Enter Content">
+                    <textarea  class="form-control" name="content_dut"  rows="6" cols="50"><?php echo $row['content_dut'] ?>
+                    </textarea>
                 </div>
 
                 <a href="content.php" class="btn btn-danger"> CANCEL </a>

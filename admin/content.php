@@ -151,13 +151,13 @@ include('database/mydbCon.php');
                                             <td><?php echo $row_con['content_eng'];?></td>
                                             <td><?php echo $row_con['content_dut'];?></td>
                                             <td>
-                                            
-                                            <form action="content-edit.php" method="POST">
+                                            <a href="content-edit.php?edit_id=<?php echo $row_con['id'];?>" name="edit_id" class="btn btn-success">Edit</a> 
+                                            <!-- <form action="content-edit.php" method="POST">
 
                                                 <input type="hidden" name="edit_id" value="<?php echo $i;?>">
                                                 <button type="submit" name="edit_btn" class="btn btn-success">Edit </button>
 
-                                                </form>
+                                                </form> -->
                                                
                                     
                                             </td>

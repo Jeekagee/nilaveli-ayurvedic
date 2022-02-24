@@ -1,3 +1,7 @@
+<?php include 'connection.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -61,7 +65,7 @@
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-4">
-            <h1 class="mb-3 bread">Feedback</h1>
+            <h1 class="mb-3 bread"><?php content("impressions-feedback-head");?></h1>
              <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Feedback<i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
@@ -72,8 +76,10 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-			<h4 class="mb-3 mt-5">Guest Feedback</h4>
-			<p>Birgit & Hermann from Germany: I was able to celebrate a very special birthday in Sri Lanka. Our thanks to the entire friendly, emphatic team, who looked after us with a lot of warmth for three weeks during the cure. We feel 10 years younger, clear and full of energy. We will be happy to come back next year.</p>
+			<h4 class="mb-3 mt-5"><?php content("impressions-feedback-head1");?></h4>
+      <p><?php content("impressions-feedback-msg1");?></p>
+      <p><?php content("impressions-feedback-msg2");?></p>
+			<!-- <p>Birgit & Hermann from Germany: I was able to celebrate a very special birthday in Sri Lanka. Our thanks to the entire friendly, emphatic team, who looked after us with a lot of warmth for three weeks during the cure. We feel 10 years younger, clear and full of energy. We will be happy to come back next year.</p>
 			<p>Manfred from Germany: It is indescribable what Robert and his team have built here since 2015. An oasis, a place of refuge, healing, meditation, yoga and rest as well as a filling station for new healthy years of life has been created! Nowhere have I felt as at home as here. Thank you for allowing me to practice my meditations there in the beautiful place in front of the lagoon. I love coming back to this dreamy place.</p>
 			<p>Sabine from Switzerland: The Nilaveli Ayurveda Resort is a blessed place of pure healing power. A place of harmony and stillness. Completely according to the principles of Ayurveda. Many thanks to the whole team for the loving and attentive care, the excellent treatments and the delicious food.</p>
 			<p>Judith from Austria: Thank you very much for your commitment, the professional treatments, the wonderful food and the personal support. We felt very comfortable with you. We take many positive experiences, suggestions and motivation with us to let Ayurveda flow into our lives in the future.</p>
@@ -84,7 +90,7 @@
 			<p>Wolfgang from Germany: A team whose every single member radiates warmth, empathy and care. We will never forget the smile in their eyes. We were treated like royalty here in this paradise. </p>
 			<p>Karin from Switzerland: My expectations have been exceeded by far! A beautiful place carried by such good and healing energy. I received a very special, very personal individual therapy here. All the masseuses were so warm and caring and very well trained. The Ayurvedic food was varied and incredibly delicious. I was able to spend a wonderful, all-round healing 3 weeks here. I've traveled a lot in the world - I felt extremely comfortable here and as soon as I can I would love to come back to this oasis where you can find your inner peace.</p>
 			<p>Franzi from Austria: The whole resort is lovingly designed and has charm. The accommodations are very nice, have European standards and are lovingly furnished. Despite the great weather, we didn't miss the air conditioning, because everything is designed so intelligently that you can open the many windows at night and the light breeze from the lagoon allows for a restful sleep. The dreamlike curries are extremely well seasoned and tasted very good. The cordial support and the nice guests, with whom you quickly get in touch, made it difficult for us to say goodbye. We'll be back, but for a longer time.</p>
-			<p>Daniel from Switzerland: My Ayurveda treatment in Sri Lanka was very relaxing and enlightening. I was spoiled all around. The professional, courteous and personal care of the doctors and therapists was very good and can only be recommended. The room was always clean, the staff was always friendly and courteous. The food was very tasty and varied. The treatments have always been carried out very professionally. The climate was pleasant day and night and the mosquito nets over the beds allowed a peaceful sleep. The beds were good. In general, the room was very spacious. The outdoor shower is fantastic. The location near the sea was very great. Using the bike was an advantage to scurry quickly into the sea.</p>
+			<p>Daniel from Switzerland: My Ayurveda treatment in Sri Lanka was very relaxing and enlightening. I was spoiled all around. The professional, courteous and personal care of the doctors and therapists was very good and can only be recommended. The room was always clean, the staff was always friendly and courteous. The food was very tasty and varied. The treatments have always been carried out very professionally. The climate was pleasant day and night and the mosquito nets over the beds allowed a peaceful sleep. The beds were good. In general, the room was very spacious. The outdoor shower is fantastic. The location near the sea was very great. Using the bike was an advantage to scurry quickly into the sea.</p> -->
 			<img src="images/img_36.jpg" alt="" class="img-fluid">
 		</div> <!-- .col-md-8 -->
 		</div>
