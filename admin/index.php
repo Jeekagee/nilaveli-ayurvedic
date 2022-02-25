@@ -208,15 +208,15 @@ if (!isset($_SESSION["user_id"])) {
 
             </div>
             <!-- End of Main Content -->
-
+            </div>
+        <!-- End of Content Wrapper -->
             
     </div>
     <!-- End of Page Wrapper -->
 
     <?php 
-    include('main/scripts.php');
     include('main/footer.php');
-
+    include('main/scripts.php');
     ?> 
     
 

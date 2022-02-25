@@ -8661,14 +8661,14 @@ textarea.form-control {
     .department-wrap {
       border-right: 1px solid rgba(0, 0, 0, 0.1); } }
   .department-wrap .text .icon span {
-    color: #207dff;
+    color: #9f153b;
     font-size: 40px; }
   .department-wrap .text h3 {
     font-size: 24px; }
     .department-wrap .text h3 a {
       color: #000000; }
   .department-wrap:hover, .department-wrap:focus {
-    background: #207dff; }
+    background: #9f153b; }
     .department-wrap:hover .text, .department-wrap:focus .text {
       color: rgba(255, 255, 255, 0.7); }
       .department-wrap:hover .text h3 a, .department-wrap:focus .text h3 a {

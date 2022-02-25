@@ -193,7 +193,7 @@
     	</div>
     </section>
 
-	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light">
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-light" id="department-section">
 		<div class="container">
 			<div class="row d-flex">
 				<div class="col-md-12 py-5">
@@ -253,8 +253,8 @@
 		</div>
 	</section>
 
-	<section class="ftco-section ftco-no-pt ftco-no-pb" id="department-section">
-    	<div class="container-fluid px-0">
+	<section class="ftco-section ftco-no-pt ftco-no-pb">
+    	<!-- <div class="container-fluid px-0"> -->
     		<div class="row no-gutters">
     			<div class="col-md-4 d-flex">
     				<div class="img img-dept align-self-stretch" style="background-image: url(images/img_6.jpg);">
@@ -265,19 +265,19 @@
     					<div class="col-md-4">
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_8.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/img_26.jpg');">
               </a>
     							</div>
     						</div>
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_8.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/img_46.jpg');">
               </a>
     							</div>
     						</div>
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_8.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/img_38.jpg');">
               </a>
     							</div>
     						</div>
@@ -286,19 +286,19 @@
     					<div class="col-md-4">
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_8.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/img_22.jpg');">
               </a>
     							</div>
     						</div>
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_8.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/img_43.jpg');">
               </a>
     							</div>
     						</div>
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_8.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/img_28.jpg');">
               </a>
     							</div>
     						</div>
@@ -327,10 +327,10 @@
     				</div>
     			</div>
     		</div>
-    	</div>
+    	<!-- </div> -->
     </section>
 		
-	<section class="ftco-facts img ftco-counter" style="background-image: url(images/img_13.jpg);">
+	<!-- <section class="ftco-facts img ftco-counter" style="background-image: url(images/img_13.jpg);">
 		<div class="overlay">
 		</div>
 		<div class="container">
@@ -338,47 +338,47 @@
 				<div class="col-md-5 heading-section heading-section-white">
 					<!-- <span class="subheading"><?php content("services-msg6");?></span>
 					<h2 class="mb-4"><?php content("services-msg7");?></h2> -->
-					<p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Make an appointment</a></p>
+					<!-- <p class="mb-0"><a href="#" class="btn btn-secondary px-4 py-3">Make an appointment</a></p>
 				</div>
 				<div class="col-md-7">
 					<div class="row pt-4">
 						<div class="">
-							<div class="block-18">
+							<div class="block-18"> -->
 								<!-- <div class="text">
 									<strong class="number" data-number="30">0</strong>
 									<span>Years of Experienced</span>
 								</div> -->
-							</div>
+							<!-- </div>
 						</div>
 						<div class="">
-							<div class="block-18">
+							<div class="block-18"> -->
 								<!-- <div class="text">
 									<strong class="number" data-number="4500">0</strong>
 									<span>Happy Patients</span>
 								</div> -->
-							</div>
+							<!-- </div>
 						</div>
 						<div class="">
-							<div class="block-18">
+							<div class="block-18"> -->
 								<!-- <div class="text">
 									<strong class="number" data-number="84">0</strong>
 									<span>Number of Doctors</span>
 								</div> -->
-							</div>
+							<!-- </div>
 						</div>
 						<div class="">
-							<div class="block-18">
+							<div class="block-18"> -->
 								<!-- <div class="text">
 									<strong class="number" data-number="300">0</strong>
 									<span>Number of Staffs</span>
 								</div> -->
-							</div>
+							<!-- </div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
     <section class="ftco-section bg-light" id="blog-section">
@@ -707,7 +707,10 @@
           </div>
 
           <div class="col-md-6 d-flex">
-          	<div id="map" class="bg-white"></div>
+		  <div class="mapouter">
+        <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=nilaveli%20ayurveda%20health%20center&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+         </div>
+      </div>
           </div>
         </div>
       </div>
@@ -766,8 +769,9 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-	
-            <p>© Ayurveda-Zentrum Nilaveli 2020</p>
+		  <p>
+          &copy; Copyrights <strong>KodPlex</strong>. All Rights Reserved
+        </p>
           </div>
         </div>
       </div>
