@@ -54,13 +54,14 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item"><a href="index.php#blog-section" class="nav-link"><span>Back</span></a></li>
 	          <li class="nav-item"><a href="index.php#home-section" class="nav-link"><span>Home</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
 	  
-	  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img_4.jpg');" data-stellar-background-ratio="0.5">
+	  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/medicine/img_8.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
@@ -159,10 +160,9 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-	
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          <p>
+          &copy; Copyrights <strong>KodPlex</strong>. All Rights Reserved
+        </p>
           </div>
         </div>
       </div>

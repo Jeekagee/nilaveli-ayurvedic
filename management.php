@@ -54,13 +54,14 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item"><a href="index.php#blog-section" class="nav-link"><span>Back</span></a></li>
 	          <li class="nav-item"><a href="index.php#home-section" class="nav-link"><span>Home</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
 	  
-	  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img_35.jpg');" data-stellar-background-ratio="0.5">
+	  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/resort/img_1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
@@ -78,14 +79,14 @@
           <div class="col-lg-12 ftco-animate">
 			<h4 class="mb-3 mt-5"> <?php content("health-management-head1");?></h4>
             <p>  
-				<img src="images/img_32.jpg" alt="" class="img-fluid">
+				<img src="images/services/img_19.jpg" alt="" class="img-fluid">
             </p>
 			      <p><?php content("health-management-msg1");?></p>
             <p><?php content("health-management-msg2");?></p>
             <p><?php content("health-management-msg3");?></p>
 			<h4 class="mb-3 mt-5"><?php content("health-management-head2");?></h4>
 			<p>  
-				<img src="images/img_2.jpg" alt="" class="img-fluid">
+				<img src="images/medicine/img_2.jpg" alt="" class="img-fluid">
             </p>
             <p><?php content("health-management-msg4");?></p>
             <p><?php content("health-management-msg5");?></p>
@@ -148,8 +149,9 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-	
-            <p>© Ayurveda-Zentrum Nilaveli 2020</p>
+          <p>
+          &copy; Copyrights <strong>KodPlex</strong>. All Rights Reserved
+        </p>
           </div>
         </div>
       </div>

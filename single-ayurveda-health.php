@@ -65,7 +65,7 @@
 	    </div>
 	  </nav>
 	  
-	  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img_7.jpg');" data-stellar-background-ratio="0.5">
+	  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/resort/IMG20220221130640.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
@@ -150,8 +150,9 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-	
-            <p>© Ayurveda-Zentrum Nilaveli 2020</p>
+          <p>
+          &copy; Copyrights <strong>KodPlex</strong>. All Rights Reserved
+        </p>
           </div>
         </div>
       </div>

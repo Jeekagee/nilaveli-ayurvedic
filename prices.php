@@ -51,6 +51,12 @@
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav nav ml-auto">
+          <li class="nav-item"><a href="index.php#blog-section" class="nav-link"><span>Back</span></a></li>
+	        <li class="nav-item"><a href="index.php#home-section" class="nav-link"><span>Home</span></a></li>
+	        </ul>
+	      </div>
 	    </div>
 	  </nav>
 
@@ -135,8 +141,9 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-	
-            <p>© Ayurveda-Zentrum Nilaveli 2020</p>
+          <p>
+          &copy; Copyrights <strong>KodPlex</strong>. All Rights Reserved
+        </p>
           </div>
         </div>
       </div>

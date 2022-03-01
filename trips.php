@@ -54,13 +54,14 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item"><a href="index.php#blog-section" class="nav-link"><span>Back</span></a></li>
 	          <li class="nav-item"><a href="index.php#home-section" class="nav-link"><span>Home</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
 	  
-	  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img_35.jpg');" data-stellar-background-ratio="0.5">
+	  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/customer/img_28c.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
@@ -76,13 +77,13 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 ftco-animate">
-            <p>  
-				<img src="images/img_29.jpg" alt="" class="img-fluid">
-            </p>
 			      <p><?php content("health-trips-msg1");?></p>
             <p><?php content("health-trips-msg2");?></p>
             <p><?php content("health-trips-msg3");?></p>
             <p><?php content("health-trips-msg4");?></p>
+            <p>  
+				<img src="images/img_29.jpg" alt="" class="img-fluid">
+            </p>
 		</div> <!-- .col-md-8 -->
 		</div>
       </div>
@@ -142,8 +143,9 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-	
-            <p>© Ayurveda-Zentrum Nilaveli 2020</p>
+          <p>
+          &copy; Copyrights <strong>KodPlex</strong>. All Rights Reserved
+        </p>
           </div>
         </div>
       </div>

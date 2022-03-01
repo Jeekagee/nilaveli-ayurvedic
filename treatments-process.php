@@ -54,13 +54,14 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
+            <li class="nav-item"><a href="index.php#blog-section" class="nav-link"><span>Back</span></a></li>
 	          <li class="nav-item"><a href="index.php#home-section" class="nav-link"><span>Home</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
 	  
-	  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/img_4.jpg');" data-stellar-background-ratio="0.5">
+	  <section class="hero-wrap hero-wrap-2" style="background-image: url('images/medicine/1582090094.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-start">
@@ -77,12 +78,13 @@
         <div class="row">
           <div class="col-lg-12 ftco-animate">
             <h2 class="mb-3"></h2>
-              <img src="images/img_32.jpg" alt="" class="img-fluid">
+              
             </p>
 			      <p><?php content("ayurveda-trt-process-msg1");?></p>
             <p><?php content("ayurveda-trt-process-msg2");?></p>
             <p><?php content("ayurveda-trt-process-msg3");?></p>
             <p>
+            <img src="images/img_32.jpg" alt="" class="img-fluid">
               <img src="images/img_18.jpg" alt="" class="img-fluid">
             </p>
           </div> <!-- .col-md-8 -->
@@ -145,8 +147,9 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
-	
-            <p>© Ayurveda-Zentrum Nilaveli 2020</p>
+          <p>
+          &copy; Copyrights <strong>KodPlex</strong>. All Rights Reserved
+        </p>
           </div>
         </div>
       </div>

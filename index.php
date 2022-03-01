@@ -73,7 +73,8 @@
               <span aria-hidden="false" class="white-text">&times;</span>
             </button>
 			<div class="img-responsive">
-					<p class="text-center">Welcome to</p>
+					<p class="text-center" style="padding-left: 2.5rem;">Welcome</p>
+					<p class="text-center">To</p>
                   <img src="/ayurvedic-nilaveli-resort.kodplex.com/images/img_36.jpg"  style="width:50%">
 			</div>  
 			</div>
@@ -95,7 +96,7 @@
           </div>
 
           <!--Footer-->
-          <div class="col text-center" style="padding: 1rem;">
+          <div class="col text-center" style="padding: 1rem; padding-bottom: 2rem">
 	  		<div class="row">
 				  <div class="col-md-6">
             		<a href="language.php?language=dut" style="width:100%" class="btn btn-danger">Deutsch</a>
@@ -154,7 +155,7 @@
 	    </div>
 	</nav>
 	  
-	<section class="hero-wrap js-fullheight" style="background-image: url('images/img_1.jpg');" data-section="home" data-stellar-background-ratio="0.5">
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/IMG20220221132540.jpg');" data-section="home" data-stellar-background-ratio="0.5">
 		<div class="overlay">
 		</div>
 		<div class="container">
@@ -175,7 +176,7 @@
     	<div class="container">
     		<div class="row d-flex">
     			<div class="col-md-6 col-lg-5 d-flex">
-    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/img_2.jpg);">
+    				<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/medicine/img_2.jpg);">
     				</div>
     			</div>
     			<div class="col-md-6 col-lg-7 pl-lg-5 py-md-5">
@@ -239,7 +240,7 @@
 		</div>
 	</section>
 
-    <section class="ftco-intro img" style="background-image: url(images/img_24.jpg);">
+    <section class="ftco-intro img" style="background-image: url(images/services/img_13.jpg);">
 		<div class="overlay">
 		</div>
 		<div class="container">
@@ -247,7 +248,6 @@
 				<div class="col-md-9 text-center">
 					<h2><?php content("services-h5");?></h2>
 					<p><?php content("services-msg5");?></p>
-					<p class="mb-0"><a href="#" class="btn btn-white px-4 py-3">Search Places</a></p>
 				</div>
 			</div>
 		</div>
@@ -257,7 +257,7 @@
     	<!-- <div class="container-fluid px-0"> -->
     		<div class="row no-gutters">
     			<div class="col-md-4 d-flex">
-    				<div class="img img-dept align-self-stretch" style="background-image: url(images/img_6.jpg);">
+    				<div class="img img-dept align-self-stretch" style="background-image: url(images/services/img_30.jpg);">
 					</div>
     			</div>
 				<div class="col-md-8">
@@ -265,40 +265,19 @@
     					<div class="col-md-4">
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_26.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/services/img_46.jpg');">
               </a>
     							</div>
     						</div>
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_46.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/services/_MG_5280.jpg');">
               </a>
     							</div>
     						</div>
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_38.jpg');">
-              </a>
-    							</div>
-    						</div>
-    					</div>
-
-    					<div class="col-md-4">
-    						<div class="department-wrap p-4 ftco-animate">
-    							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_22.jpg');">
-              </a>
-    							</div>
-    						</div>
-    						<div class="department-wrap p-4 ftco-animate">
-    							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_43.jpg');">
-              </a>
-    							</div>
-    						</div>
-    						<div class="department-wrap p-4 ftco-animate">
-    							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_28.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/services/img_38.jpg');">
               </a>
     							</div>
     						</div>
@@ -307,19 +286,40 @@
     					<div class="col-md-4">
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_8.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/services/img_22.jpg');">
               </a>
     							</div>
     						</div>
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_8.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/services/img_43.jpg');">
               </a>
     							</div>
     						</div>
     						<div class="department-wrap p-4 ftco-animate">
     							<div class="text p-2 text-center">
-    								<a href="" class="block-20" style="background-image: url('images/img_8.jpg');">
+    								<a href="" class="block-20" style="background-image: url('images/services/IMG_2603.jpg');">
+              </a>
+    							</div>
+    						</div>
+    					</div>
+
+    					<div class="col-md-4">
+    						<div class="department-wrap p-4 ftco-animate">
+    							<div class="text p-2 text-center">
+    								<a href="" class="block-20" style="background-image: url('images/services/img_39.jpg');">
+              </a>
+    							</div>
+    						</div>
+    						<div class="department-wrap p-4 ftco-animate">
+    							<div class="text p-2 text-center">
+    								<a href="" class="block-20" style="background-image: url('images/services/photo_40189829.jpg');">
+              </a>
+    							</div>
+    						</div>
+    						<div class="department-wrap p-4 ftco-animate">
+    							<div class="text p-2 text-center">
+    								<a href="" class="block-20" style="background-image: url('images/services/img_19.jpg');">
               </a>
     							</div>
     						</div>
@@ -392,7 +392,7 @@
         <div class="row d-flex">
           <div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="single-ayurveda.php" class="block-20" style="background-image: url('images/img_8.jpg');">
+              <a href="single-ayurveda.php" class="block-20" style="background-image: url('images/medicine/img_21.jpg');">
               </a>
               <div class="text d-block">
               	<div class="meta mb-3">
@@ -416,7 +416,7 @@
 
         	<div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="single-ayurveda-health.php" class="block-20" style="background-image: url('images/img_7.jpg');">
+              <a href="single-ayurveda-health.php" class="block-20" style="background-image: url('images/resort/IMG20220221130347.jpg');">
               </a>
               <div class="text d-block">
               	<div class="meta mb-3">
@@ -437,7 +437,7 @@
 			
 			<div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="single-Yoga.php" class="block-20" style="background-image: url('images/img_19.jpg');">
+              <a href="single-Yoga.php" class="block-20" style="background-image: url('images/services/img_13.jpg');">
               </a>
               <div class="text d-block">
               	<div class="meta mb-3">
@@ -453,7 +453,7 @@
 			
         	<div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="single-accomodation.php" class="block-20" style="background-image: url('images/img_15.jpg');">
+              <a href="single-accomodation.php" class="block-20" style="background-image: url('images/img_35.jpg');">
               </a>
               <div class="text d-block">
 				  <div class="meta mb-3">
@@ -470,7 +470,7 @@
 
         	<div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="single-social-commitment.php" class="block-20" style="background-image: url('images/img_18.jpg');">
+              <a href="single-social-commitment.php" class="block-20" style="background-image: url('images/customer/img_20.jpg');">
               </a>
               <div class="text d-block">
               	<div class="meta mb-3">
@@ -486,7 +486,7 @@
 
         	<div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="single-impression.php" class="block-20" style="background-image: url('images/img_20.jpg');">
+              <a href="single-impression.php" class="block-20" style="background-image: url('images/IMG20220221131649.jpg');">
               </a>
               <div class="text d-block">
               	<div class="meta mb-3">
@@ -502,45 +502,43 @@
         	</div>
 			<div class="col-md-4 ftco-animate">
             <div class="blog-entry">
-              <a href="prices.php" class="block-20" style="background-image: url('images/img_36.jpg');">
-              </a>
-              <div class="text d-block">
+			<div class="text d-block">
               	<div class="meta mb-3">
                   <div><a href="#"></a></div>
                   <div><a href="#"></a></div>
                 </div>
-                <h3 class="heading"><a href="#"><?php content("blog-h8");?></a></h3>
-                <p></p>
+			<h3 class="heading"><a href="#"><?php content("blog-h8");?></a></h3>
+              </a>
+			  <p></p>
                 <p><a href="prices.php" class="btn btn-primary py-2 px-3">Book Now</a></p>
               </div>
             </div>
         	</div>
 			<div class="col-md-4 ftco-animate">
 				<div class="blog-entry">
-				  <a href="#contact-section" class="block-20" style="background-image: url('images/img_36.jpg');">
-				  </a>
-				  <div class="text d-block">
+				<div class="text d-block">
 					<div class="meta mb-3">
 					  <div><a href="#"></a></div>
 					  <div><a href="#"></a></div>
 					</div>
-					<h3 class="heading"><a href="#"><?php content("blog-h9");?></a></h3>
-					<p></p>
-					<p><a href="#contact-section" class="btn btn-primary py-2 px-3">Read more</a></p>
+				<h3 class="heading"><a href="#"><?php content("blog-h9");?></a></h3>
+				  </a>
+				  <p></p>
+				  <p><a href="#contact-section" class="btn btn-primary py-2 px-3">Read more</a></p>
+				  
 				  </div>
 				</div>
         	</div>
 			<div class="col-md-4 ftco-animate">
 				<div class="blog-entry">
-				  <a href="faq.php" class="block-20" style="background-image: url('images/img_36.jpg');">
-				  </a>
-				  <div class="text d-block">
+				<div class="text d-block">
 					<div class="meta mb-3">
 					  <div><a href="#"></a></div>
 					  <div><a href="#"></a></div>
 					</div>
-					<h3 class="heading"><a href="#"><?php content("blog-h10");?></a></h3>
-					<p></p>
+				<h3 class="heading"><a href="#"><?php content("blog-h10");?></a></h3>
+				  </a>
+				  <p></p>
 					<p><a href="faq.php" class="btn btn-primary py-2 px-3">Read more</a></p>
 				  </div>
 				</div>
@@ -671,7 +669,6 @@
           		</div>
           		<h3 class="mb-4"><?php content("contact-h4");?></h3>
 	            <p><a href="mailto:info@ayurveda-nilaveli-resort.com"><?php content("email");?></a></p>
-				<p><a href="mailto:ayurveda14@hotmail.com">ayurveda14@hotmail.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
